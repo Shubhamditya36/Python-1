@@ -1,0 +1,15 @@
+'''
+Print this pattern
+
+1234         first row 4 column =4-0 
+234          2nd row 3 column = 4-1
+34           3rd row 2 column =4-2
+4            4th row 1 coulmn =4-3
+'''
+x=1
+for i in range(4):         #run loop from i=0 to 3 (total number of rows=4) 
+    for j in range(4-i):   # run loop from j=0 to j-i (total number of columns =4-i)
+        print(x,end="")    
+        x=x+1
+    x=i+2
+    print("\n")

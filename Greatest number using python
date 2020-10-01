@@ -1,0 +1,15 @@
+'''
+Print the greatest number
+'''
+x=int(input())                             # Take input from user 
+y=int(input())
+z=int(input())
+if x>y:                                      #if x>y then compare x with z 
+    if x>z:                                
+        print("greatest number is",x) 
+    else: 
+        print("greatest number is",z)
+elif y>z:                                    # if x<y compare y with z 
+    print("greatest number is",y)
+else:
+    print("greatest number is",z)
